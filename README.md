@@ -1,7 +1,7 @@
 # Extração de Texto de PDF com Corte por Região Usando PyMuPDF
 Este script Python extrai texto de uma região específica de um arquivo PDF, respeitando coordenadas horizontais (x0 e x1), para evitar que textos indesejados apareçam na extração. O texto extraído é agrupado por linhas e registros, e exportado para uma planilha Excel.
 
-## Pré-requisitos
+# Pré-requisitos
 Python 3.x
 
 Bibliotecas Python:
@@ -14,7 +14,7 @@ openpyxl (para salvar arquivos Excel, pip install openpyxl)
 
 
 
-## Como usar
+# Como usar
 1.Coloque o arquivo PDF na pasta input (ou ajuste o caminho no código).
 
 2. Ajuste o retângulo de recorte (rect) para a área desejada, definindo coordenadas x0, y0, x1, y1.
